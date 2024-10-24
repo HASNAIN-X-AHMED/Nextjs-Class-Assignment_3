@@ -7,9 +7,9 @@ const page = () => {
     <div>
         <Header />
         
-      <div className=" text-center  h-72">
-        <h1 className=" text-2xl text-blue-500">Contact Me</h1>
-        <p>I`m Hasnain Ahmed me via email to :<a href='#' className="text-blue-500 hover:text-pink-400">hasnainxahmed5656@gmail.com</a></p>
+      <div className=" text-center  p-[152px]">
+        <h1 className=" text-2xl text-blue-500 font-extrabold">Contact Me</h1>
+        <p>I`m Hasnain Ahmed me via email to :<a href='mailto:hasnainxahmed5656@gmail.com' className="text-blue-500 hover:text-pink-400">hasnainxahmed5656@gmail.com</a></p>
       </div>
      <Footer />
     </div>

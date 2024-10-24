@@ -6,7 +6,7 @@ const Header = () => {
   return (
    <header className="bg-gradient-to-r from-purple-500 via-blue-500 to-pink-500 h-9">
     <nav className="container mx-auto flex justify-between items-center">
-        <h1>Hasnain Ahmed</h1>
+        <h1 className="text-[19px] font-bold ">Hasnain Ahmed</h1>
         <ul className="flex space-x-4">
             <li className="text-white my-1  hover:text-blue-500 ">
                 <Link href='about'target='blank' >About Me</Link>
